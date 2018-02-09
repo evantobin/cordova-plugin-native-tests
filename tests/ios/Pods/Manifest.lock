@@ -1,0 +1,15 @@
+PODS:
+  - Cordova (4.5.4)
+  - OCMock (3.4.1)
+
+DEPENDENCIES:
+  - Cordova (= 4.5.4)
+  - OCMock (= 3.4.1)
+
+SPEC CHECKSUMS:
+  Cordova: 90a337977b8667a80483f559268c82062b1183da
+  OCMock: 2cd0716969bab32a2283ff3a46fd26a8c8b4c5e3
+
+PODFILE CHECKSUM: 597d8f68e4ae588bba0e3cdca87cf8061b19cd8b
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2005F148202D30E3002E74EE /* CordovaTestExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2005F147202D30E2002E74EE /* CordovaTestExampleTests.m */; };
+		203AC9D6202D50B1002AF827 /* CordovaTestExample.h in Sources */ = {isa = PBXBuildFile; fileRef = 2005F152202D3106002E74EE /* CordovaTestExample.h */; };
+		203AC9D7202D50B1002AF827 /* CordovaTestExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 2005F153202D3106002E74EE /* CordovaTestExample.m */; };
+		F7E22A655C175B34DE3E23C6 /* libPods-CordovaTestExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A62896C2C586AF170E5FEA7 /* libPods-CordovaTestExampleTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2005F143202D30E2002E74EE /* CordovaTestExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CordovaTestExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2005F147202D30E2002E74EE /* CordovaTestExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CordovaTestExampleTests.m; sourceTree = "<group>"; };
+		2005F149202D30E3002E74EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2005F152202D3106002E74EE /* CordovaTestExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CordovaTestExample.h; path = ../../../../src/ios/CordovaTestExample.h; sourceTree = "<group>"; };
+		2005F153202D3106002E74EE /* CordovaTestExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CordovaTestExample.m; path = ../../../../src/ios/CordovaTestExample.m; sourceTree = "<group>"; };
+		27252A9CB6ADC3264FAF99A8 /* Pods-CordovaTestExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CordovaTestExampleTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-CordovaTestExampleTests/Pods-CordovaTestExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E30AF1B336FA27E06984D09 /* Pods-CordovaTestExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CordovaTestExample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-CordovaTestExample/Pods-CordovaTestExample.release.xcconfig"; sourceTree = "<group>"; };
+		9A62896C2C586AF170E5FEA7 /* libPods-CordovaTestExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CordovaTestExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFA8B919E7F6BA1D82810BC /* libPods-CordovaTestExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CordovaTestExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA42F18E6189055F156489C2 /* Pods-CordovaTestExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CordovaTestExample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-CordovaTestExample/Pods-CordovaTestExample.debug.xcconfig"; sourceTree = "<group>"; };
+		BA8CDE3BE1ADAF7EE2218E0F /* Pods-CordovaTestExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CordovaTestExampleTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-CordovaTestExampleTests/Pods-CordovaTestExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2005F140202D30E2002E74EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E22A655C175B34DE3E23C6 /* libPods-CordovaTestExampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2005F11C202D30E1002E74EE = {
+			isa = PBXGroup;
+			children = (
+				2005F127202D30E2002E74EE /* CordovaTestExample */,
+				2005F146202D30E2002E74EE /* CordovaTestExampleTests */,
+				2005F126202D30E2002E74EE /* Products */,
+				CA6516ACD6DC3AE028380047 /* Pods */,
+				E6135CF6E932DCCEA6B56876 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2005F126202D30E2002E74EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2005F143202D30E2002E74EE /* CordovaTestExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2005F127202D30E2002E74EE /* CordovaTestExample */ = {
+			isa = PBXGroup;
+			children = (
+				2005F152202D3106002E74EE /* CordovaTestExample.h */,
+				2005F153202D3106002E74EE /* CordovaTestExample.m */,
+			);
+			path = CordovaTestExample;
+			sourceTree = "<group>";
+		};
+		2005F146202D30E2002E74EE /* CordovaTestExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2005F147202D30E2002E74EE /* CordovaTestExampleTests.m */,
+				2005F149202D30E3002E74EE /* Info.plist */,
+			);
+			path = CordovaTestExampleTests;
+			sourceTree = "<group>";
+		};
+		CA6516ACD6DC3AE028380047 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA42F18E6189055F156489C2 /* Pods-CordovaTestExample.debug.xcconfig */,
+				2E30AF1B336FA27E06984D09 /* Pods-CordovaTestExample.release.xcconfig */,
+				BA8CDE3BE1ADAF7EE2218E0F /* Pods-CordovaTestExampleTests.debug.xcconfig */,
+				27252A9CB6ADC3264FAF99A8 /* Pods-CordovaTestExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6135CF6E932DCCEA6B56876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA8B919E7F6BA1D82810BC /* libPods-CordovaTestExample.a */,
+				9A62896C2C586AF170E5FEA7 /* libPods-CordovaTestExampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2005F142202D30E2002E74EE /* CordovaTestExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2005F14F202D30E3002E74EE /* Build configuration list for PBXNativeTarget "CordovaTestExampleTests" */;
+			buildPhases = (
+				2A43F23116768490BED87406 /* [CP] Check Pods Manifest.lock */,
+				2005F13F202D30E2002E74EE /* Sources */,
+				2005F140202D30E2002E74EE /* Frameworks */,
+				2005F141202D30E2002E74EE /* Resources */,
+				7CDF9891B0D47C1E29AE5926 /* [CP] Embed Pods Frameworks */,
+				F091848CE4159C96CAE41A86 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CordovaTestExampleTests;
+			productName = CordovaTestExampleTests;
+			productReference = 2005F143202D30E2002E74EE /* CordovaTestExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2005F11D202D30E1002E74EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Evan Tobin";
+				TargetAttributes = {
+					2005F142202D30E2002E74EE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2005F120202D30E1002E74EE /* Build configuration list for PBXProject "CordovaTestExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2005F11C202D30E1002E74EE;
+			productRefGroup = 2005F126202D30E2002E74EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2005F142202D30E2002E74EE /* CordovaTestExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2005F141202D30E2002E74EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A43F23116768490BED87406 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CordovaTestExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CDF9891B0D47C1E29AE5926 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CordovaTestExampleTests/Pods-CordovaTestExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F091848CE4159C96CAE41A86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CordovaTestExampleTests/Pods-CordovaTestExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2005F13F202D30E2002E74EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203AC9D6202D50B1002AF827 /* CordovaTestExample.h in Sources */,
+				203AC9D7202D50B1002AF827 /* CordovaTestExample.m in Sources */,
+				2005F148202D30E3002E74EE /* CordovaTestExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2005F14A202D30E3002E74EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2005F14B202D30E3002E74EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2005F150202D30E3002E74EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8CDE3BE1ADAF7EE2218E0F /* Pods-CordovaTestExampleTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CordovaTestExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.evantob.CordovaTestExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2005F151202D30E3002E74EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27252A9CB6ADC3264FAF99A8 /* Pods-CordovaTestExampleTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CordovaTestExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.evantob.CordovaTestExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2005F120202D30E1002E74EE /* Build configuration list for PBXProject "CordovaTestExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2005F14A202D30E3002E74EE /* Debug */,
+				2005F14B202D30E3002E74EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2005F14F202D30E3002E74EE /* Build configuration list for PBXNativeTarget "CordovaTestExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2005F150202D30E3002E74EE /* Debug */,
+				2005F151202D30E3002E74EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2005F11D202D30E1002E74EE /* Project object */;
+}

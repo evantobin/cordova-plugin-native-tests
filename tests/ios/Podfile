@@ -1,0 +1,5 @@
+target 'CordovaTestExampleTests' do
+    project 'CordovaTestExample/CordovaTestExample.xcodeproj'
+    pod 'Cordova', '4.5.4'
+    pod 'OCMock', '3.4.1'
+  end

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-native-tests"
+    version="1.0.0">
+    <name>Cordova Plugin Native Tests</name>
+    <description>An example template for a Cordova plugin that has native unit tests and JS tests</description>
+    <license>GPL</license>
+    <repo>https://github.com/evantobin/cordova-plugin-native-tests.git</repo>
+    <issue>https://github.com/evantobin/cordova-plugin-native-tests/issues</issue>
+
+    <!-- android -->
+    <platform name="android">
+      <js-module src="www/plugin.js" name="plugin">
+        <runs/>
+        <clobbers target="CordovaTestExample" />
+      </js-module>
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="CordovaTestExample">
+          <param name="android-package" value="in.evantob.CordovaTestExample.CordovaTestExample" />
+          <param name="onload" value="true" />
+        </feature>
+      </config-file>
+
+      <source-file src="src/android/in/evantob/CordovaTestExample/CordovaTestExample.java" target-dir="src/in/evantob/CordovaTestExample/" />
+    </platform>
+
+    <!-- ios -->
+    <platform name="ios">
+        <js-module src="www/plugin.js" name="plugin">
+            <clobbers target="CordovaTestExample" />
+        </js-module>
+        <config-file target="config.xml" parent="/*">
+            <feature name="CordovaTestExample">
+                <param name="ios-package" value="CordovaTestExample" onload="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CordovaTestExample.h" />
+        <source-file src="src/ios/CordovaTestExample.m" />
+    </platform>
+</plugin>

@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-native-tests-test",
+  "version": "1.0.0",
+  "description": "A starting point for a Cordova Plugin with native and JS tests.",
+  "author": "Evan Tobin <me@evantob.in>",
+  "cordova": {
+    "id": "cordova-plugin-native-tests-test",
+    "platforms": []
+  },
+  "scripts": {
+    "test": "npm run test-js && npm run test-native",
+    "test-js": "npm run test-js:android && npm run test-js:ios",
+    "test-js:android": "cordova-paramedic --cleanUpAfterRun --platform android --plugin .",
+    "test-js:ios": "cordova-paramedic --cleanUpAfterRun --platform ios --plugin .",
+    "test-native": "npm run test-native:android && npm run test-native:ios",
+    "test-native:android": "cd android && (./gradlew test || gradlew test) && cd ../",
+    "test-native:ios": "cd ios && xcodebuild test -scheme CordovaTestExampleTests -destination 'platform=iOS Simulator,name=iPhone X' && cd ../"
+  }
+}
